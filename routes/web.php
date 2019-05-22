@@ -18,9 +18,8 @@ Route::namespace('Auth')->group(function () {
     })->name('login');
     Route::post('/login', 'LoginController@login');
 
-    Route::get('/register', function(){
-        return view('auth.register');
-    })->name('register');
+    Route::get('/register', 'RegisterController@showRegistrationForm')
+        ->name('register');
     Route::post('/register', 'RegisterController@register');
 
     Route::get('/verify', 'VerificationController@show');

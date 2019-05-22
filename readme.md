@@ -34,7 +34,7 @@ TWILIO_VERIFICATION_SID=VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 1. Run migrations to create the database.
 
 ```bash
-touch ./twilio_verify_quickstart.sqlite
+touch database/twilio_verify_quickstart.sqlite
 php artisan migrate
 ```
 
@@ -54,7 +54,7 @@ That's it!
 1. Run phpunit
 
 ```bash
-phpunit
+./vendor/bin/phpunit
 ```
 
 ## Meta
