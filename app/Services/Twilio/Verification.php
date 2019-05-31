@@ -76,7 +76,7 @@ class Verification implements Service
             $verification_check = $this->client->verify->v2->services($this->verification_sid)
                 ->verificationChecks
                 ->create($code, ['to' => $phone_number]);
-            if($verification_check->valid) {
+            if($verification_check->status === 'approved') {
                 return new Result($verification_check->sid);
             }
             return new Result(['Verification check failed: Invalid code.']);
