@@ -2807,8 +2807,8 @@
             "authors": [
                 {
                     "name": "Tijs Verkoyen",
-                    "email": "css_to_inline_styles@verkoyen.eu",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "css_to_inline_styles@verkoyen.eu"
                 }
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
@@ -2817,16 +2817,16 @@
         },
         {
             "name": "twilio/sdk",
-            "version": "5.32.0",
+            "version": "5.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twilio/twilio-php.git",
-                "reference": "ebdc82a11e86021fa54821c4aa9e4df5c6ee75a4"
+                "reference": "a0e74651cdfba6dda780084e3dfc83002c0a71f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/ebdc82a11e86021fa54821c4aa9e4df5c6ee75a4",
-                "reference": "ebdc82a11e86021fa54821c4aa9e4df5c6ee75a4",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/a0e74651cdfba6dda780084e3dfc83002c0a71f2",
+                "reference": "a0e74651cdfba6dda780084e3dfc83002c0a71f2",
                 "shasum": ""
             },
             "require": {
@@ -2834,7 +2834,11 @@
             },
             "require-dev": {
                 "apigen/apigen": "^4.1",
+                "guzzlehttp/guzzle": "^6.3",
                 "phpunit/phpunit": "4.5.*"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
             },
             "type": "library",
             "autoload": {
@@ -2859,7 +2863,7 @@
                 "sms",
                 "twilio"
             ],
-            "time": "2019-05-15T19:17:51+00:00"
+            "time": "2019-09-04T23:10:35+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3077,8 +3081,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "homepage": "https://github.com/filp",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "https://github.com/filp"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -3406,18 +3410,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -4620,8 +4624,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
