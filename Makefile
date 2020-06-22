@@ -1,3 +1,5 @@
+.PHONY: install serve
+
 install:
 	composer install
 	touch database/twilio_verify_quickstart.sqlite
