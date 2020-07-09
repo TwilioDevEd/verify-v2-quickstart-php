@@ -13,7 +13,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "twilio/sdk": "^5.32"
+        "twilio/sdk": "^6.9"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
