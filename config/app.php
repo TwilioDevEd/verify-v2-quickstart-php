@@ -245,7 +245,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Debug blacklist
+    | Debug hide
     |--------------------------------------------------------------------------
     |
     | Hiding environment variables on debug pages. For more information, visit
@@ -253,7 +253,7 @@ return [
     |
     */
 
-    'debug_blacklist' => [
+    'debug_hide' => [
         '_ENV' => [
             'APP_KEY',
             'DB_PASSWORD',
