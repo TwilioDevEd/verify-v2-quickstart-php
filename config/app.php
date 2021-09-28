@@ -243,4 +243,29 @@ return [
         'verification_sid' => env('TWILIO_VERIFICATION_SID'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Debug hide
+    |--------------------------------------------------------------------------
+    |
+    | Hiding environment variables on debug pages. For more information, visit
+    | https://laravel.com/docs/7.x/configuration#hiding-environment-variables-from-debug
+    |
+    */
+
+    'debug_hide' => [
+        '_ENV' => [
+            'APP_KEY',
+            'DB_PASSWORD',
+            'TWILIO_ACCOUNT_SID',
+            'TWILIO_AUTH_TOKEN',
+            'TWILIO_VERIFICATION_SID'
+        ],
+
+        '_SERVER' => [
+            'APP_KEY',
+            'DB_PASSWORD',
+        ],
+    ],
+
 ];
